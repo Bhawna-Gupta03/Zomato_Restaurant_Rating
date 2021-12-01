@@ -8,7 +8,7 @@ import flask
 import pickle
 
 app = Flask(__name__, template_folder='templates',static_folder='static',static_url_path='/static')
-model1 = pickle.load(open('model1.pkl', 'rb'))
+model1 = pickle.load(open('https://drive.google.com/file/d/1TMImzUTcHYfowA78NYRGE5NOfpFelDNX/view?usp=sharing', 'rb'))
 model2 = pickle.load(open('model22.pkl', 'rb'))
 model3=pickle.load(open('model3.pkl','rb'))
 
